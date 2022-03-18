@@ -12,7 +12,7 @@ import store from './app/store'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Provider>
+      <Provider store={store}>
         <App />
       </Provider>
     </Router>
